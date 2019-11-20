@@ -19,6 +19,7 @@ const Nav = createStackNavigator(
         defaultNavigationOptions: ({navigation}) => {
             return {
                 headerStyle: {backgroundColor: '#FFD248'},
+                headerTintColor:'#FFFFFF',
                 title: 'Unsplash App',
             };
         },
